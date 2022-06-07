@@ -39,9 +39,9 @@ System programmer
 ## Work experience
 ****
 **2008-2010** Web developer
-**20011** WinFon mobile game developer
+**2011** WinFon mobile game developer
 **2013** Unity developer
 ****
 ## Language
 ****
-**English level%**
+**English level:** A1
