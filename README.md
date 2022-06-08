@@ -1,1 +1,1 @@
-https://tuto4ki.github.io/rsschool-cv/cv
+https://tuto4ki.github.io/rsschool-cv/
