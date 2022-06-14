@@ -1,101 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <title>CV</title>
 </head>
+
 <body>
-    <header class="header">
-        <div class="container background">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
-                </ul>
-            </nav>
+  <header class="header">
+    <div class="container background">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <div class="section" id="profile">
+        <img src="./assets/images/photo.png" alt="Photo" id="avatar">
+      </div>
+      <section class="section">
+        <h1 class="section-title">Safonova Svetlana</h1>
+        <p class="italic">Junior Front-end Developer</p>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li><span class="bold">E-mail:</span> safonova.sv.a@gmail.com</li>
+          <li><span class="bold">Phone:</span> +7(925)417-57-72</li>
+          <li><span class="bold">Github:</span> tuto4ki</li>
+          <li><span class="bold">Telegram:</span> @SvetlanaSafonova</li>
+          <li>Moskow, Russia</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          Firstly I worked as Web-developer on several projects. Mostly my tasks were developing sites without using any
+          frameworks.<br>
+          Then I began work as a game developer. The first platform was Windows Phone. I wrote casula games using C# and
+          XNA framework.<br>
+          Then I started to write games using Unity engine. The last project was a online shooter with mutliplayer mode,
+          where I worked on all parts of the game in a middle size team.<br>
+          Then I had a long break in my career because I went on maternity leave.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>C / C++ / C# (Basic)
+          <li>Unity (Basic)</li>
+          <li>HTML (Basic)</li>
+          <li>CSS (Basic)</li>
+          <li>JavaScript (Basic)</li>
+          <li>Pattern (Basic)</li>
+          <li>OOP (Basic)</li>
+        </ul>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <ul>
+          <li><span class="bold">12/2008 - 05/2009</span> R70, Web-developer</li>
+          <li><span class="bold">06/2009 - 05/2010</span> WebWorks, Web-developer</li>
+          <li><span class="bold">06/2010 - 08/2010</span> Contek Soft, Web-developer</li>
+          <li><span class="bold">09/2010 - 02/2011</span> DealWeb, Web-developer</li>
+          <li><span class="bold">04/2011 - 11/2011</span> Karmic Labs, Windows Phone Game Developer</li>
+          <li><span class="bold">06/2013 - 09/2013</span> Karmic Labs, Unity Developer</li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div>
+          <a href="https://www.microsoft.com/ru-ru/p/hangman-free/9nblggh08tqm?cid=msft_web_search&activetab=pivot%3aoverviewtab"
+            class="nav-link"><img src="./assets/images/hangman.png" alt="Hangman"></a>
+          <a href="https://www.microsoft.com/ru-ru/p/jewel-joy/9wzdncrfj4z0?cid=msft_web_search&activetab=pivot%3aoverviewtab#"
+            class="nav-link"><img src="./assets/images/jewel.png" alt="Jewel Joy"></a>
+          <a href="http://www.touchandplay.ru/games/penguin_physics/" class="nav-link"><img
+              src="./assets/images/penguin.png" alt="Penguin Phisics"></a>
+          <a href="http://www.touchandplay.ru/games/the_jumble/" class="nav-link"><img src="./assets/images/jumble.png"
+              alt="The Jumble"></a>
         </div>
-    </header>
-    <main class="main">
-        <div class="container main-container">
-            <div class="section" id="profile">
-                <img src="./assets/images/photo.png" alt="Photo" id="avatar">
-            </div>
-            <section class="section">
-                <h1 class="section-title">Safonova Svetlana</h1>
-                <p class="italic">Junior Front-end Developer</p>
-            </section>
-            <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <ul>
-                    <li>E-mail: safonova.sv.a@gmail.com</li>
-                    <li>Phone: +7(925)417-57-72</li>
-                    <li>Github: tuto4ki</li>
-                    <li>Moskow, Russia</li>
-                </ul>
-            </section>
-            <section class="section" id="summary">
-                <h2 class="section-title">Summary</h2>
-                <p>Catch up after a long break due to the birth of children</p>
-            </section>
-            <section class="section" id="skills">
-                <h2 class="section-title">Skills</h2>
-                <ul>
-                    <li>C / C++ / C# (Basic)
-                    <li>Unity (Basic)</li>
-                    <li>HTML (Basic)</li>
-                    <li>CSS (Basic)</li>
-                    <li>JavaScript (Basic)</li>
-                    <li>Pattern (Basic)</li>
-                    <li>OOP (Basic)</li>
-                </ul>
-            </section>
-            <section class="section" id="code">
-                <h2 class="section-title">Code</h2>
-                <div>
-                    <pre>public static int Add(int a, int b)
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <div>
+          <pre>public static int Add(int a, int b)
 {
     return a + b;
 }
                     </pre>
-                </div>
-            </section>
-            <section class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
-                <div>
-                    <a href="https://www.microsoft.com/ru-ru/p/hangman-free/9nblggh08tqm?cid=msft_web_search&activetab=pivot%3aoverviewtab" class="nav-link"><img src="./assets/images/hangman.png" alt="Hangman"></a>
-                    <a href="https://www.microsoft.com/ru-ru/p/jewel-joy/9wzdncrfj4z0?cid=msft_web_search&activetab=pivot%3aoverviewtab#" class="nav-link"><img src="./assets/images/jewel.png" alt="Jewel Joy"></a>
-                    <a href="http://www.touchandplay.ru/games/penguin_physics/" class="nav-link"><img src="./assets/images/penguin.png" alt="Penguin Phisics"></a>
-                    <a href="http://www.touchandplay.ru/games/the_jumble/" class="nav-link"><img src="./assets/images/jumble.png" alt="The Jumble"></a>
-                </div>
-            </section>
-            <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
-                <p><span class="bold">2004 - 2009</span> Tomsk State University, Facultet Apply Mathematics And Cybernetics, Mathematician / Programmer</p>
-            </section><section class="section" id="english">
-                <h2 class="section-title">English</h2>
-                <p>A1 - Beginner</p>
-            </section>
         </div>
-    </main>
-    <footer class="footer">
-        <div class="container background">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="https://rs.school/" class="nav-link"><img src="./assets/images/rss.svg" alt="PreSchool" id="bottom"></a></li>
-                <li class="nav-item"><a href="https://github.com/tuto4ki" class="nav-link">My GitHub</a></li>
-                <li class="nav-item"><span class="nav-link">2022</span></li>
-            </ul>
-        </div>
-    </footer>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p><span class="bold">2004 - 2009</span> Tomsk State University, Facultet Apply Mathematics And Cybernetics,
+          Mathematician / Programmer</p>
+      </section>
+      <section class="section" id="english">
+        <h2 class="section-title">English</h2>
+        <p>A1 - Beginner</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container background">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="https://rs.school/" class="nav-link"><img src="./assets/images/rss.svg"
+              alt="PreSchool" id="bottom"></a></li>
+        <li class="nav-item"><a href="https://github.com/tuto4ki" class="nav-link">My GitHub</a></li>
+        <li class="nav-item"><span class="nav-link">2022</span></li>
+      </ul>
+    </div>
+  </footer>
 </body>
+
 </html>
